@@ -19,12 +19,8 @@ Imports:
     dplyr (>= 0.8.0.1),
     lubridate (>= 1.7.4),
     purrr (>= 0.3.2),
+    raster, 
     RSQLite (>= 2.1.1),
     tibble (>= 2.1.1)
 RoxygenNote: 6.1.1
-Suggests: 
-    knitr,
-    rmarkdown,
-    testthat
 Roxygen: list(markdown = TRUE)
-VignetteBuilder: knitr
