@@ -9,6 +9,7 @@
 #' @importFrom dbplyr src_dbi
 #' @importFrom dplyr bind_rows collect src_tbls tbl
 #' @importFrom lubridate now
+#' @importFrom RSQLite SQLite
 #'
 #' @export
 #'

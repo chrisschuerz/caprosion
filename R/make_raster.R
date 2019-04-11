@@ -32,6 +32,9 @@ make_raster_from_tibble <- function(tbl, ref_raster, ref_idx, variable = NULL,
     ref_idx <- readRDS(ref_idx)
   }
 
+  if(is.character(ref_raster)) {
+    ref_idx <- raster(ref_raster)
+  }
 
   if(is.null(variable)) {
     variable <- names(tbl)
